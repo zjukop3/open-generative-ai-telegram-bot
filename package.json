@@ -1,0 +1,22 @@
+{
+  "name": "open-generative-ai-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for unrestricted AI image/video/lip-sync generation, powered by Open Generative AI.",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "keywords": ["telegram-bot", "ai", "image-generation", "video-generation", "lip-sync", "open-generative-ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
